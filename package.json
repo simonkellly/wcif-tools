@@ -1,0 +1,23 @@
+{
+  "name": "wcif-tools",
+  "version": "0.1.0",
+  "description": "Useful scripts for working with WCA Competitions",
+  "main": "index.ts",
+  "author": "simonkellly",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "@wca/helpers": "^1.1.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
