@@ -4,8 +4,9 @@ import "dotenv/config";
 import { MostDNFs } from "./scripts/MostDNFs";
 import { keyInSelect } from "readline-sync";
 import { FastestNewcomer } from "./scripts/FastestNewcomer";
+import { ScramblePasswordOrganizer } from "./scripts/ScramblePasswordOrganizer";
 
-const scripts: ScriptDefinition[] = [NoDNFs, MostDNFs, FastestNewcomer];
+const scripts: ScriptDefinition[] = [ScramblePasswordOrganizer, NoDNFs, MostDNFs, FastestNewcomer];
 
 const scriptIdx = keyInSelect(
   scripts.map((script) => script.description),
